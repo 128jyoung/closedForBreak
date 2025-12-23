@@ -74,6 +74,27 @@ h1 {
 
 h2 {
     font-family: "Rubik Spray Paint", system-ui;
-    font-weight: 200;
+    font-optical-sizing: auto;
+    font-weight: 100;
     font-style: normal;
+}
+
+.closed h1 {
+    background-color: #ccc;
+    width: 300px;
+    margin-bottom: 18px;
+    padding: 5px 0;
+    font-family: "Texturina", serif; 
+}
+
+p, .closed h2 {
+    background-color:#fff;
+    width: 300px;
+    font-size: 35px;
+    line-height: 0.02;
+    font-family: "Rubik Spray Paint", system-ui;
+}
+
+.closed p {
+    font-size: 15px;
 }
